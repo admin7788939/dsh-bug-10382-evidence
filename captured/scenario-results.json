@@ -1,0 +1,233 @@
+[
+    {
+        "scenario":  "good",
+        "expectation":  "healthy (mirrors the current working profile)",
+        "flavor":  "good",
+        "coreCopies":  [
+                           "cosmokit",
+                           "dsh-brand",
+                           "dsh-mcp-client",
+                           "dsh-sdk-protocol",
+                           "dsh-subagent-claude-code",
+                           "dsh-subagent-codex",
+                           "dsh-tool-subagent",
+                           "dsh-util-values",
+                           "schemastery"
+                       ],
+        "dumpConfigExit":  0,
+        "composedIds":  215,
+        "dumpConfigErrors":  [
+
+                             ],
+        "dumpSeconds":  1.9,
+        "secondScopeCopy":  false,
+        "scopeSplitConfirmed":  false,
+        "scopeSplitDetail":  "healthy: the profile carries no second @deepseek-ai/dsh-scope copy, so every consumer shares one Symbol(\"dsh.scope\")",
+        "webStarted":  null,
+        "webUrl":  null,
+        "webActivationWarnings":  null,
+        "uiProbeStage":  null,
+        "uiProbeErrors":  {
+
+                          }
+    },
+    {
+        "scenario":  "good-with-all-copies",
+        "expectation":  "control: duplicate copies alone, marker plugins",
+        "flavor":  "good",
+        "coreCopies":  [
+                           "cordis",
+                           "cosmokit",
+                           "dsh-attachment",
+                           "dsh-brand",
+                           "dsh-llm",
+                           "dsh-mcp-client",
+                           "dsh-mcp-resources",
+                           "dsh-scope",
+                           "dsh-sdk-protocol",
+                           "dsh-subagent-claude-code",
+                           "dsh-subagent-codex",
+                           "dsh-subprocess",
+                           "dsh-system-prompt",
+                           "dsh-timeout",
+                           "dsh-tools",
+                           "dsh-tool-subagent",
+                           "dsh-typert-protocol",
+                           "dsh-util-crypto",
+                           "dsh-util-values",
+                           "schemastery"
+                       ],
+        "dumpConfigExit":  0,
+        "composedIds":  215,
+        "dumpConfigErrors":  [
+
+                             ],
+        "dumpSeconds":  2.2,
+        "secondScopeCopy":  true,
+        "scopeSplitConfirmed":  true,
+        "scopeSplitDetail":  "confirmed: the second copy cannot see the scope tag, so it treats a scoped Context as global/unscoped",
+        "webStarted":  null,
+        "webUrl":  null,
+        "webActivationWarnings":  null,
+        "uiProbeStage":  null,
+        "uiProbeErrors":  {
+
+                          }
+    },
+    {
+        "scenario":  "incident",
+        "expectation":  "incident layout (reproduces the report)",
+        "flavor":  "bad",
+        "coreCopies":  [
+                           "cordis",
+                           "cosmokit",
+                           "dsh-attachment",
+                           "dsh-brand",
+                           "dsh-llm",
+                           "dsh-mcp-client",
+                           "dsh-mcp-resources",
+                           "dsh-scope",
+                           "dsh-sdk-protocol",
+                           "dsh-subagent-claude-code",
+                           "dsh-subagent-codex",
+                           "dsh-subprocess",
+                           "dsh-system-prompt",
+                           "dsh-timeout",
+                           "dsh-tools",
+                           "dsh-tool-subagent",
+                           "dsh-typert-protocol",
+                           "dsh-util-crypto",
+                           "dsh-util-values",
+                           "schemastery"
+                       ],
+        "dumpConfigExit":  0,
+        "composedIds":  215,
+        "dumpConfigErrors":  [
+
+                             ],
+        "dumpSeconds":  1.6,
+        "secondScopeCopy":  true,
+        "scopeSplitConfirmed":  true,
+        "scopeSplitDetail":  "confirmed: the second copy cannot see the scope tag, so it treats a scoped Context as global/unscoped",
+        "webStarted":  null,
+        "webUrl":  null,
+        "webActivationWarnings":  null,
+        "uiProbeStage":  null,
+        "uiProbeErrors":  {
+
+                          }
+    },
+    {
+        "scenario":  "incident-no-system-prompt",
+        "expectation":  "A/B: remove the second dsh-system-prompt copy",
+        "flavor":  "bad",
+        "coreCopies":  [
+                           "cordis",
+                           "cosmokit",
+                           "dsh-attachment",
+                           "dsh-brand",
+                           "dsh-llm",
+                           "dsh-mcp-client",
+                           "dsh-mcp-resources",
+                           "dsh-scope",
+                           "dsh-sdk-protocol",
+                           "dsh-subagent-claude-code",
+                           "dsh-subagent-codex",
+                           "dsh-subprocess",
+                           "dsh-timeout",
+                           "dsh-tools",
+                           "dsh-tool-subagent",
+                           "dsh-typert-protocol",
+                           "dsh-util-crypto",
+                           "dsh-util-values",
+                           "schemastery"
+                       ],
+        "dumpConfigExit":  0,
+        "composedIds":  215,
+        "dumpConfigErrors":  [
+
+                             ],
+        "dumpSeconds":  1.7,
+        "secondScopeCopy":  true,
+        "scopeSplitConfirmed":  true,
+        "scopeSplitDetail":  "confirmed: the second copy cannot see the scope tag, so it treats a scoped Context as global/unscoped",
+        "webStarted":  null,
+        "webUrl":  null,
+        "webActivationWarnings":  null,
+        "uiProbeStage":  null,
+        "uiProbeErrors":  {
+
+                          }
+    },
+    {
+        "scenario":  "incident-no-scope",
+        "expectation":  "A/B: remove the second dsh-scope copy",
+        "flavor":  "bad",
+        "coreCopies":  [
+                           "cordis",
+                           "cosmokit",
+                           "dsh-attachment",
+                           "dsh-brand",
+                           "dsh-llm",
+                           "dsh-mcp-client",
+                           "dsh-mcp-resources",
+                           "dsh-sdk-protocol",
+                           "dsh-subagent-claude-code",
+                           "dsh-subagent-codex",
+                           "dsh-subprocess",
+                           "dsh-system-prompt",
+                           "dsh-timeout",
+                           "dsh-tools",
+                           "dsh-tool-subagent",
+                           "dsh-typert-protocol",
+                           "dsh-util-crypto",
+                           "dsh-util-values",
+                           "schemastery"
+                       ],
+        "dumpConfigExit":  0,
+        "composedIds":  215,
+        "dumpConfigErrors":  [
+
+                             ],
+        "dumpSeconds":  1.9,
+        "secondScopeCopy":  false,
+        "scopeSplitConfirmed":  false,
+        "scopeSplitDetail":  "healthy: the profile carries no second @deepseek-ai/dsh-scope copy, so every consumer shares one Symbol(\"dsh.scope\")",
+        "webStarted":  null,
+        "webUrl":  null,
+        "webActivationWarnings":  null,
+        "uiProbeStage":  null,
+        "uiProbeErrors":  {
+
+                          }
+    },
+    {
+        "scenario":  "incident-minimal",
+        "expectation":  "smallest candidate set that still loads: {mcp-client, scope, system-prompt, cordis, cosmokit}",
+        "flavor":  "bad",
+        "coreCopies":  [
+                           "dsh-mcp-client",
+                           "dsh-scope",
+                           "dsh-system-prompt",
+                           "cordis",
+                           "cosmokit"
+                       ],
+        "dumpConfigExit":  0,
+        "composedIds":  211,
+        "dumpConfigErrors":  [
+                                 "dsh: skipping profile bundle \"@deepseek-ai/dsh-subagent-codex\": Error: dsh: cannot resolve profile bundle \"@deepseek-ai/dsh-subagent-codex\" from the dsh installation or C:\\Users\\Admin\\Documents\\deepseek-harness\\default-workspace\\repro\\work\\home-incident-minimal\\profiles\\incident-minimal; run \u0027dsh plugin --profile incident-minimal install\u0027 if its dependency is not installed",
+                                 "dsh: skipping profile bundle \"@deepseek-ai/dsh-subagent-claude-code\": Error: dsh: cannot resolve profile bundle \"@deepseek-ai/dsh-subagent-claude-code\" from the dsh installation or C:\\Users\\Admin\\Documents\\deepseek-harness\\default-workspace\\repro\\work\\home-incident-minimal\\profiles\\incident-minimal; run \u0027dsh plugin --profile incident-minimal install\u0027 if its dependency is not installed"
+                             ],
+        "dumpSeconds":  2.2,
+        "secondScopeCopy":  true,
+        "scopeSplitConfirmed":  true,
+        "scopeSplitDetail":  "confirmed: the second copy cannot see the scope tag, so it treats a scoped Context as global/unscoped",
+        "webStarted":  null,
+        "webUrl":  null,
+        "webActivationWarnings":  null,
+        "uiProbeStage":  null,
+        "uiProbeErrors":  {
+
+                          }
+    }
+]
