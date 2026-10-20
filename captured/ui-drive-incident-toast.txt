@@ -1,0 +1,1 @@
+新建会话失败：agent-preset/invalid: persona (@deepseek-ai/dsh-persona): prompt section "deployment:persona-prefix" is already registered (for a per-agent override, register through that agent's `agent.ctx` instead) tool-subagent (@deepseek-ai/dsh-tool-subagent): tool-subagent: standing `modelSelectionSettings` requires a scoped preset Context
