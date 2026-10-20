@@ -1,0 +1,20 @@
+{
+  "toastPrefix": true,
+  "capturedLength": 337,
+  "fragments": [
+    {
+      "fragment": "agent-preset/invalid:…",
+      "present": true
+    },
+    {
+      "fragment": "persona (@deepseek-ai/dsh-persona): prompt secti…",
+      "present": true
+    },
+    {
+      "fragment": "tool-subagent (@deepseek-ai/dsh-tool-subagent): …",
+      "present": true
+    }
+  ],
+  "identicalToConcatenatedCodeMessages": true,
+  "ok": true
+}
