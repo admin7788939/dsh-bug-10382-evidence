@@ -1,0 +1,46 @@
+{
+  "steps": [
+    {
+      "step": "after-dismiss",
+      "body": "探索未至之境\n预览版\n选择工作区\n选择一个工作区开始\n默认工作区\n添加工作区…"
+    },
+    {
+      "step": "open-workspace-picker",
+      "matched": "SPAN:选择工作区",
+      "at": [
+        137,
+        193
+      ]
+    },
+    {
+      "step": "pick-default-workspace",
+      "matched": "SPAN:默认工作区",
+      "at": [
+        158,
+        232
+      ]
+    },
+    {
+      "step": "after-pick",
+      "body": "探索未至之境\n预览版\n选择工作区\n选择一个工作区开始\n新建会话失败：agent-preset/invalid: persona (@deepseek-ai/dsh-persona): prompt section \"deployment:persona-prefix\" is already registered (for a per-agent override, register through that agent's `agent.ctx` instead) tool-subagent (@deepseek-ai/dsh-tool-subagent): tool-subagent: standing `modelSelectionSettings` requires a scoped preset Context"
+    }
+  ],
+  "consoleLines": [
+    "initial Session restoration failed: SessionCreateError: session create failed: agent-preset/invalid: persona (@deepseek-ai/dsh-persona): prompt section \"deployment:persona-prefix\" is already registered (for a per-agent override, register through that agent's `agent.ctx` instead)\ntool-subagent (@deepseek-ai/dsh-tool-subagent): tool-subagent: standing `modelSelectionSettings` requires a scoped preset Context\n    at ClientSessions.create (http://127.0.0.1:51880/plugins/??@deepseek-ai/dsh-client-ui-trajectory/client.js,@deepseek-ai/dsh-experimental-client-ui-agent-team/client.js,@deepseek-ai/dsh-experimental-client-ui-voice-input/client.js,@deepseek-ai/dsh-experimental-inspector/client.js,@deepseek-ai/dsh-experimental-session-inspector/client.js,@deepseek-ai/dsh-client-ui-plugin-market/client.js,@deepseek-ai/dsh-api-remote-access/client.js,@deepseek-ai/dsh-session-log-export/client.js,@deeps"
+  ],
+  "bodyBefore": "探索未至之境\n预览版\n选择工作区\n选择一个工作区开始\n新建会话失败：agent-preset/invalid: persona (@deepseek-ai/dsh-persona): prompt section \"deployment:persona-prefix\" is already registered (for a per-agent override, register through that agent's `agent.ctx` instead) tool-subagent (@deepseek-ai/dsh-tool-subagent): tool-subagent: standing `modelSelectionSettings` requires a scoped preset Context",
+  "bodyAfter": "探索未至之境\n预览版\n选择工作区\n选择一个工作区开始\n新建会话失败：agent-preset/invalid: persona (@deepseek-ai/dsh-persona): prompt section \"deployment:persona-prefix\" is already registered (for a per-agent override, register through that agent's `agent.ctx` instead) tool-subagent (@deepseek-ai/dsh-tool-subagent): tool-subagent: standing `modelSelectionSettings` requires a scoped preset Context",
+  "shots": [
+    ".\\evidence\\ui-drive-incident-900ms.png",
+    ".\\evidence\\ui-drive-incident.png"
+  ],
+  "clickedNewSession": false,
+  "markers": [
+    "agent-preset/invalid",
+    "deployment:persona-prefix",
+    "requires a scoped preset Context",
+    "新建会话失败",
+    "already registered"
+  ],
+  "ok": true
+}
