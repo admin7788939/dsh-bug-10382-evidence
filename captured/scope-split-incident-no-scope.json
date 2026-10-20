@@ -1,0 +1,9 @@
+{
+  "installRoot": "C:\\Users\\Admin\\AppData\\Local\\Programs\\DeepSeek Harness\\resources\\app.asar\\dsh\\node_modules",
+  "profileRoot": "C:\\Users\\Admin\\Documents\\deepseek-harness\\default-workspace\\repro\\work\\home-incident-no-scope\\profiles\\incident-no-scope\\node_modules",
+  "ok": false,
+  "scopeFilePathA": "file:///C:/Users/Admin/AppData/Local/Programs/DeepSeek%20Harness/resources/app.asar/dsh/node_modules/@deepseek-ai/dsh-scope/lib/index.js",
+  "scopeFilePathB": "file:///C:/Users/Admin/Documents/deepseek-harness/default-workspace/repro/work/home-incident-no-scope/profiles/incident-no-scope/node_modules/@deepseek-ai/dsh-scope/lib/index.js",
+  "profileHasSecondScopeCopy": false,
+  "failureMode": "healthy: the profile carries no second @deepseek-ai/dsh-scope copy, so every consumer shares one Symbol(\"dsh.scope\")"
+}
