@@ -1,0 +1,13 @@
+{
+  "installRoot": "C:\\Users\\Admin\\AppData\\Local\\Programs\\DeepSeek Harness\\resources\\app.asar\\dsh\\node_modules",
+  "profileRoot": "C:\\Users\\Admin\\Documents\\deepseek-harness\\default-workspace\\repro\\work\\home-incident\\profiles\\incident\\node_modules",
+  "ok": true,
+  "scopeFilePathA": "file:///C:/Users/Admin/AppData/Local/Programs/DeepSeek%20Harness/resources/app.asar/dsh/node_modules/@deepseek-ai/dsh-scope/lib/index.js",
+  "scopeFilePathB": "file:///C:/Users/Admin/Documents/deepseek-harness/default-workspace/repro/work/home-incident/profiles/incident/node_modules/@deepseek-ai/dsh-scope/lib/index.js",
+  "profileHasSecondScopeCopy": true,
+  "scopeCopiesSameModule": false,
+  "cordisContextsSameClass": true,
+  "scopeOf_sameCopy": "preset-standard/session-1",
+  "scopeOf_otherCopy": null,
+  "failureMode": "confirmed: the second copy cannot see the scope tag, so it treats a scoped Context as global/unscoped"
+}
